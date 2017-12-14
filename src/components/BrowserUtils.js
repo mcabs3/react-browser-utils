@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { saveDimensionData } from '../redux/Reducer';
+import { getBrowserData } from '../utils/helpers';
 
 
 const mapState = () => ({});
